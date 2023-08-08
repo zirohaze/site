@@ -1,0 +1,29 @@
+﻿body{
+	background-image:url(images/3.jpg);
+}
+fieldset{
+color:#6433ff;
+background-color:#fcb0f0;
+font-size:20px;
+margin:20px;	
+padding:20px;
+border:10px solid #000000;
+border-radius:50px;
+opacity:0.5;
+box-shadow:3px 3px 70px #fcb0f0;
+display:block;
+text-align:center;
+font-weight:500;
+}
+fieldset:hover{
+border:15px solid #000000;
+opacity:1;
+transform:rotate(70deg) scale(0.3);
+background-color:#da1abc;
+}
+fieldset{
+	transform:rotate(0deg) scale(0.5);
+	transition:2s all;
+	
+}
+
